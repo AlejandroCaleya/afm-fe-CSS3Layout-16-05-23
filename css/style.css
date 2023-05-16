@@ -1,0 +1,51 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    border: red 2px solid;
+    margin-bottom: 5px;
+}
+
+#head {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#main {
+    height: 60vh;
+    display: flex;
+    /* el flex se pone a la caja que tiene dentro el contenido a ubicar, pero solo a esas, si esas cajas tienen otras dentro o texto ya no se ven afectadas */
+}
+
+#footer {
+    height: 15vh;
+    display: flex;
+}
+
+.main {
+    border: green 2px solid;
+}
+
+#main-izq {
+    /* dentro de una caja con display flex, es mejor utilizar % que no vh/vw */
+    /* % nos pilla el total de la caja, viewport nos pilla el total de la pantalla */
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#main-der {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx-footer {
+    border: blueviolet 2px solid;
+    width: 20%;
+}
