@@ -1,0 +1,47 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: ;
+}
+
+div {
+    border: 3px green solid;
+}
+
+#head {
+    height: 15%;
+}
+
+#google {
+    width: 272px;
+    height: 20%;
+    margin-left: 35%;
+}
+
+#busqueda {
+    height: 10%;
+}
+
+#suerte {
+    height: 10%;
+    
+}
+
+button {
+    margin-right: 17px;
+    border-radius: 0;
+    width: 20vw;
+    height: 5vh;
+    background-color: rgb(248,249,250);
+    border-style: none;
+    font-style: inherit;
+}
+
+#ofrecido {
+    height: 30%;
+}
+
+#footer {
+    height: 15%;
+}
+
