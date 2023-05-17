@@ -1,7 +1,9 @@
 body{
+    margin: 0;
     width: 100vw;
-    height: 100vh;
-    display: ;
+    height: 96vh;
+    /* width: auto; */
+    
 }
 
 div {
@@ -15,7 +17,7 @@ div {
 #google {
     width: 272px;
     height: 20%;
-    margin-left: 35%;
+    margin-left: 40%;
 }
 
 #busqueda {
@@ -23,25 +25,69 @@ div {
 }
 
 #suerte {
-    height: 10%;
-    
+    height: 8%;
+    width: 52vh;
+    margin-left: 37%;
 }
 
 button {
-    margin-right: 17px;
-    border-radius: 0;
-    width: 20vw;
+    margin-right: 8px;
+    margin-left: 9px;
+    border-radius: 5px;
+    width: 11vw;
     height: 5vh;
     background-color: rgb(248,249,250);
-    border-style: none;
-    font-style: inherit;
+    border-style: none;   
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px black solid;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 6px;
 }
 
 #ofrecido {
-    height: 30%;
+    height: 32%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.blue {
+    color: rgba(38, 38, 251, 0.845);
 }
 
 #footer {
     height: 15%;
+    background-color: rgb(242,242,242);
 }
 
+#ESP {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#hr {
+    border-bottom: 1px grey solid;
+}
+
+#publi {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    /* margin-left: 25px;
+    margin-right: 25px; */
+    justify-content: space-between;
+}
+
+#leaf {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
