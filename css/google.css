@@ -1,17 +1,18 @@
 body{
     margin: 0;
     width: 100vw;
-    height: 96vh;
+    height: 100vh;
+    font-family: sans-serif;
     /* width: auto; */
     
 }
 
 div {
-    border: 3px green solid;
+    /* border: 3px green solid; */
 }
 
 #head {
-    height: 15%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -38,13 +39,13 @@ div {
 #google {
     width: 272px;
     height: 20%;
-    margin-left: 40%;
+    margin-left: 41.5%;
 }
 
 #busqueda {
     margin-left: 36%;
     width: 429px;
-    height: 50px;
+    height: 7%;
     background-image: url(../imgs/barra.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -55,20 +56,17 @@ div {
 #bar {
     margin-top: 2px;
     width: 330px;
-    height: 39px;
+    height: 38px;
     border-style: hidden;
     align-self: center;
-}
-
-#bar:hover {
-    border-style: hidden;
-    border-color: transparent;
+    outline: none;
 }
 
 #suerte {
+    margin-top: 20px;
     height: 8%;
-    width: 52vh;
-    margin-left: 35%;
+    width: 53vh;
+    margin-left: 39%;
 }
 
 button {
@@ -93,8 +91,9 @@ a {
 }
 
 #ofrecido {
-    height: 32%;
-    padding-left: 39%;
+    height: 27%;
+    padding-left: 41%;
+    font-size: smaller;
 }
 
 .blue {
@@ -102,8 +101,9 @@ a {
 }
 
 #footer {
-    height: 15%;
+    height: 11.7%;
     background-color: rgb(242,242,242);
+    
 }
 
 #ESP {

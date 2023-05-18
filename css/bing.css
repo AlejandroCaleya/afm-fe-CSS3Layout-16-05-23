@@ -1,0 +1,101 @@
+body {
+    height: 100vh;
+    background-image: url(../imgs/bakground-bing.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#head {
+    margin: 2px 40px 0px 40px;
+    border: red 1px solid;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+
+#barra {
+    border: rgb(242, 255, 0) 1px solid;
+    height: 10%;
+}
+
+#empty {
+    border: rgb(255, 255, 255) 1px solid;
+    height: 37.3%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin-right: 13px;
+}
+
+
+button {
+    background-color: black;
+    opacity: 78%;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#fotos {
+    border: rgb(0, 255, 110) 1px solid;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin: 5px;
+}
+
+.foto {
+    background-color: chocolate;
+    border-radius: 6.5px;
+}
+
+#f1 {
+    background-image: url(../imgs/f1.jpg);
+    background-size: cover;
+}
+
+#f2 {
+    background-image: url(../imgs/f2.jpg);
+    background-size: cover;
+}
+
+#f3 {
+    background-image: url(../imgs/f3.jpg);
+    background-size: cover;
+}
+
+#f4 {
+    background-image: url(../imgs/f4.jpg);
+    background-size: cover;
+}
+
+#f5 {
+    background-image: url(../imgs/f5.jpg);
+    background-size: contain;
+}
+
+#footer {
+    border: rgb(47, 0, 255) 1px solid;
+    height: 8%;
+    background-color: rgb(51,51,51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 98, 98);;
+    margin-left: 20px;
+}
+
+.space {
+    margin: 0px 40px 0px 20px; 
+}
