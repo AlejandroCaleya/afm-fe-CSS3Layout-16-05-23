@@ -23,9 +23,9 @@ div {
     padding-right: 10px;
 }
 
-.material-symbols-outlined {
-    display: flex
-    justify-content: ;
+#puntos {
+    /* display: flex; */
+
 }
 
 #sign {
@@ -42,13 +42,33 @@ div {
 }
 
 #busqueda {
-    height: 10%;
+    margin-left: 36%;
+    width: 429px;
+    height: 50px;
+    background-image: url(../imgs/barra.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bar {
+    margin-top: 2px;
+    width: 330px;
+    height: 39px;
+    border-style: hidden;
+    align-self: center;
+}
+
+#bar:hover {
+    border-style: hidden;
+    border-color: transparent;
 }
 
 #suerte {
     height: 8%;
     width: 52vh;
-    margin-left: 37%;
+    margin-left: 35%;
 }
 
 button {
@@ -74,8 +94,7 @@ a {
 
 #ofrecido {
     height: 32%;
-    text-align: center;
-    margin-right: 20px;
+    padding-left: 39%;
 }
 
 .blue {
@@ -102,8 +121,8 @@ a {
     height: 45%;
     display: flex;
     align-items: center;
-    /* margin-left: 25px;
-    margin-right: 25px; */
+    margin-left: 25px;
+    margin-right: 25px;
     justify-content: space-between;
 }
 
