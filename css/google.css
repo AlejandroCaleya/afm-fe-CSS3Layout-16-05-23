@@ -38,12 +38,12 @@ div {
 
 #google {
     width: 272px;
-    height: 20%;
-    margin-left: 41.5%;
+    height: 14%;
+    margin-left: 41%;
 }
 
 #busqueda {
-    margin-left: 36%;
+    margin-left: 36.5%;
     width: 429px;
     height: 7%;
     background-image: url(../imgs/barra.png);
@@ -73,8 +73,8 @@ button {
     margin-right: 8px;
     margin-left: 9px;
     border-radius: 5px;
-    width: 11vw;
-    height: 5vh;
+    width: 8vw;
+    height: 4vh;
     background-color: rgb(248,249,250);
     border-style: none;   
     cursor: pointer;
@@ -91,8 +91,8 @@ a {
 }
 
 #ofrecido {
-    height: 27%;
-    padding-left: 41%;
+    height: 35%;
+    padding-left: 40.3%;
     font-size: smaller;
 }
 

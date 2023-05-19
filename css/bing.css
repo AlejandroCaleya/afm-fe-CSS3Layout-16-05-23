@@ -11,25 +11,46 @@ body {
 #head {
     margin: 2px 40px 0px 40px;
     border: red 1px solid;
-    height: 20%;
+    height: 8%;
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
+}
+
+#center {
+    display: flex;
+    align-items: center;
 }
 
 
 #barra {
     border: rgb(242, 255, 0) 1px solid;
     height: 10%;
+    /* width: 90vw; */
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#busca {
+    width: 30%;
+    height: 50%;
+    border: 1px gray solid;
+    border-radius: 22px;
+    padding-left: 40px;
+    outline: none;
+}
+
 
 #empty {
     border: rgb(255, 255, 255) 1px solid;
-    height: 37.3%;
+    height: 40%;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: end;
-    margin-right: 13px;
+    margin-right: 14px;
+    margin-left: 13px;
 }
 
 
@@ -54,6 +75,12 @@ button {
 .foto {
     background-color: chocolate;
     border-radius: 6.5px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.699);
+}
+
+.foto:hover {
+    border: 2px black solid;
+    cursor: pointer;
 }
 
 #f1 {
